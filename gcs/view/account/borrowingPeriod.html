@@ -1,0 +1,1 @@
+<ion-view view-title=借款周期><ion-nav-buttons side=left><back-button></back-button></ion-nav-buttons><ion-content ng-class="{'has-loading': isOffline}"><ion-radio ng-repeat="period in periods" ng-model=financing.period ng-value=period.val ng-change=change()><label bo-text=period.text></label></ion-radio></ion-content></ion-view>

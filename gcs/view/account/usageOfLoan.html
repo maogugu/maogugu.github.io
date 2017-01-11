@@ -1,0 +1,1 @@
+<ion-view view-title=借款用途><ion-nav-buttons side=left><back-button></back-button></ion-nav-buttons><ion-content ng-class="{'has-loading': isOffline}"><ion-radio ng-repeat="usage in usages" ng-model=financing.usage ng-value=usage.val ng-change=change()><label bo-text=usage.text></label></ion-radio></ion-content></ion-view>
